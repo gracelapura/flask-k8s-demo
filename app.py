@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return f"Hello v2 from {os.getenv('HOSTNAME')}!"
+    return f"Hello v3 from {os.getenv('HOSTNAME')}!"
 
 @app.route("/health")
 def health():
